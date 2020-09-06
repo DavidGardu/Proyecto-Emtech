@@ -59,4 +59,6 @@ if user in admins and passw == "admin":
       print("   ", prod_comb[j][k][0], "       ", prod_comb[j][k][1], "     ", prod_comb[j][k][4] )
 else:
   print("Usted no cuenta con permisos de administrador, mejor vaya de chismoso al muro de su ex en Facebook :)")
-input("Para cerrar esta ventana, escriba 'adios': ")
+bye = input("Para cerrar esta ventana, escriba 'adios': ")
+while bye != "adios":
+  print("Escriba bien, ni adios correctamente puede escribir.")
