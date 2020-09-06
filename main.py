@@ -62,3 +62,4 @@ else:
 bye = input("Para cerrar esta ventana, escriba 'adios': ")
 while bye != "adios":
   print("Escriba bien, ni adios correctamente puede escribir.")
+  bye = input("Despídase bien: ")
